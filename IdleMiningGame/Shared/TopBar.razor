@@ -1,0 +1,32 @@
+﻿@inherits TopBarBase
+
+<nav class="bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <Icon Name="IconName.Lightbulb" />
+                <Text Color="TextColor.Secondary">Energy: @DoubleToTwoDecimals(@Game.ResourceManager.Energy)</Text>
+            </div>
+            <div class="col-sm">
+                <Icon Name="IconName.Tree" />
+                <Text Color="TextColor.Secondary">Wood: @DoubleToTwoDecimals(@Game.ResourceManager.Wood)</Text>
+            </div>
+            <div class="col-sm">
+                <span class="oi oi-hard-drive" aria-hidden="true"></span>
+                <Text Color="TextColor.Secondary">Iron: @DoubleToTwoDecimals(@Game.ResourceManager.Iron)</Text>
+            </div>
+            <div class="col-sm">
+                <span class="oi oi-hard-drive" aria-hidden="true"></span>
+                <Text Color="TextColor.Secondary">Copper: @DoubleToTwoDecimals(@Game.ResourceManager.Copper)</Text>
+            </div>
+            <div class="col-sm">
+                <span class="oi oi-hard-drive" aria-hidden="true"></span>
+                <Text Color="TextColor.Secondary">Lithium: @DoubleToTwoDecimals(@Game.ResourceManager.Lithium)</Text>
+            </div>
+            <div class="col-sm">
+                <span class="oi oi-briefcase" aria-hidden="true"></span>
+                <Text Color="TextColor.Secondary">Scrap: @DoubleToTwoDecimals(@Game.ResourceManager.Scrap)</Text>
+            </div>
+        </div>
+    </div>
+</nav>
