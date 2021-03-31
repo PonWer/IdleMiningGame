@@ -1,6 +1,6 @@
 {
-  "name": "IdleMiningGame",
-  "short_name": "IdleMiningGame",
+  "name": "IdleMining.Web",
+  "short_name": "IdleMining.Web",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
